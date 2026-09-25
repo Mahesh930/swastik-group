@@ -1,0 +1,876 @@
+[
+  {
+    "event": "P2_Landing_View",
+    "timestamp": "2026-09-25T15:28:36.599Z"
+  },
+  {
+    "event": "P2_50_Scroll",
+    "timestamp": "2026-09-25T15:28:36.599Z"
+  },
+  {
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "luxury",
+      "value": "More nature"
+    },
+    "timestamp": "2026-09-25T15:28:36.599Z"
+  },
+  {
+    "id": "ev-1790350587889-mtp0",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:36:27.889Z"
+  },
+  {
+    "id": "ev-1790350691028-vlzg",
+    "event": "P2_Sent_Letter_Inspect",
+    "payload": {
+      "letter_id": "01",
+      "title": "The First Rain"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:38:11.028Z"
+  },
+  {
+    "id": "ev-1790350832029-53e0",
+    "event": "P2_50_Scroll",
+    "payload": {
+      "depth": "50%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:40:32.029Z"
+  },
+  {
+    "id": "ev-1790350836243-4ntc",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:40:36.243Z"
+  },
+  {
+    "id": "ev-1790350845380-0eln",
+    "event": "P2_Open_Letter_Click",
+    "payload": {
+      "method": "wax_seal"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:40:45.380Z"
+  },
+  {
+    "id": "ev-1790350886281-788v",
+    "event": "P2_Next_Clue_Intent",
+    "payload": {
+      "timestamp": "2026-09-25T15:41:26.279Z",
+      "action": "next_clue_requested"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:41:26.281Z"
+  },
+  {
+    "id": "ev-1790350966536-k05k",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-5",
+      "reaction": "heart"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:42:46.536Z"
+  },
+  {
+    "id": "ev-1790350967945-tzjw",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-5",
+      "reaction": "heart"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:42:47.945Z"
+  },
+  {
+    "id": "ev-1790350968945-s6tp",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-5",
+      "reaction": "heart"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:42:48.945Z"
+  },
+  {
+    "id": "ev-1790351007326-2uol",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-2",
+      "reaction": "truePune"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:43:27.326Z"
+  },
+  {
+    "id": "ev-1790351008263-exp8",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-2",
+      "reaction": "truePune"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:43:28.263Z"
+  },
+  {
+    "id": "ev-1790351009512-ss9x",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-2",
+      "reaction": "truePune"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:43:29.512Z"
+  },
+  {
+    "id": "ev-1790351010292-dq0g",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-2",
+      "reaction": "truePune"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:43:30.292Z"
+  },
+  {
+    "id": "ev-1790351011040-sb7b",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-2",
+      "reaction": "truePune"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:43:31.040Z"
+  },
+  {
+    "id": "ev-1790351229416-o6eq",
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "luxury",
+      "value": "More nature"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:47:09.416Z"
+  },
+  {
+    "id": "ev-1790351268420-al1i",
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "home",
+      "value": "A greener view"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:47:48.420Z"
+  },
+  {
+    "id": "ev-1790351301608-2jd6",
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "commute",
+      "value": "Absolutely"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:48:21.608Z"
+  },
+  {
+    "event": "P2_Home_Must_Have",
+    "payload": {
+      "id": "pref-1790351638400-4v939",
+      "luxury": "More nature",
+      "home": "A greener view",
+      "commute": "Absolutely",
+      "length": 76
+    },
+    "timestamp": "2026-09-25T15:53:58.401Z"
+  },
+  {
+    "id": "ev-1790351638437-kzkj",
+    "event": "form_submitted",
+    "payload": {
+      "id": "pref-1790351638400-4v939",
+      "luxury": "More nature",
+      "home": "A greener view",
+      "commute": "Absolutely",
+      "thoughtLength": 76
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:53:58.437Z"
+  },
+  {
+    "id": "ev-1790351809601-bh8k",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790351638400-4v939",
+      "reaction": "heart"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T15:56:49.601Z"
+  },
+  {
+    "id": "ev-1790352983073-smc1",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790351638400-4v939",
+      "reaction": "heart"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T16:16:23.073Z"
+  },
+  {
+    "id": "ev-1790356323552-f2yv",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:12:03.552Z"
+  },
+  {
+    "id": "ev-1790356323560-e4mk",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:12:03.560Z"
+  },
+  {
+    "id": "ev-1790356331611-pdu8",
+    "event": "P2_50_Scroll",
+    "payload": {
+      "depth": "50%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:12:11.611Z"
+  },
+  {
+    "id": "ev-1790356378005-7l9c",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:12:58.005Z"
+  },
+  {
+    "id": "ev-1790356436629-6eh9",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:13:56.629Z"
+  },
+  {
+    "id": "ev-1790356436633-cov0",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:13:56.633Z"
+  },
+  {
+    "id": "ev-1790356439656-lcdz",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:13:59.656Z"
+  },
+  {
+    "id": "ev-1790356450625-ix0t",
+    "event": "ambient_audio_toggled",
+    "payload": {
+      "state": "on"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:14:10.625Z"
+  },
+  {
+    "id": "ev-1790356464182-skpm",
+    "event": "ambient_audio_toggled",
+    "payload": {
+      "state": "off"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:14:24.182Z"
+  },
+  {
+    "id": "ev-1790356465006-qlis",
+    "event": "ambient_audio_toggled",
+    "payload": {
+      "state": "on"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:14:25.006Z"
+  },
+  {
+    "id": "ev-1790356465537-n4mx",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:14:25.537Z"
+  },
+  {
+    "id": "ev-1790356512183-gg69",
+    "event": "hero_cta_speak_mind",
+    "payload": {
+      "cta": "your-say"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:15:12.183Z"
+  },
+  {
+    "id": "ev-1790356548480-d5j7",
+    "event": "P2_Wall_Filter_Click",
+    "payload": {
+      "filter": "More nature"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:15:48.480Z"
+  },
+  {
+    "id": "ev-1790356549629-ns96",
+    "event": "P2_Wall_Filter_Click",
+    "payload": {
+      "filter": "More space"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:15:49.629Z"
+  },
+  {
+    "id": "ev-1790356550518-joum",
+    "event": "P2_Wall_Filter_Click",
+    "payload": {
+      "filter": "More privacy"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:15:50.518Z"
+  },
+  {
+    "id": "ev-1790356551357-3fp4",
+    "event": "P2_Wall_Filter_Click",
+    "payload": {
+      "filter": "A greener view"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:15:51.357Z"
+  },
+  {
+    "id": "ev-1790356563456-oyuw",
+    "event": "P2_Open_Letter_Click",
+    "payload": {
+      "method": "wax_seal"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:16:03.456Z"
+  },
+  {
+    "id": "ev-1790356567104-blrj",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:16:07.104Z"
+  },
+  {
+    "id": "ev-1790356627274-1sck",
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "luxury",
+      "value": "More space"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:17:07.274Z"
+  },
+  {
+    "id": "ev-1790356635385-c9wc",
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "home",
+      "value": "A higher floor"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:17:15.385Z"
+  },
+  {
+    "id": "ev-1790356646300-j8xw",
+    "event": "P2_Preference_Select",
+    "payload": {
+      "question": "commute",
+      "value": "Maybe"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:17:26.300Z"
+  },
+  {
+    "event": "P2_Home_Must_Have",
+    "payload": {
+      "id": "pref-1790356739469-cvgk5",
+      "luxury": "More space",
+      "home": "A higher floor",
+      "commute": "Maybe",
+      "length": 48
+    },
+    "timestamp": "2026-09-25T17:18:59.470Z"
+  },
+  {
+    "id": "ev-1790356739514-vg8i",
+    "event": "form_submitted",
+    "payload": {
+      "id": "pref-1790356739469-cvgk5",
+      "luxury": "More space",
+      "home": "A higher floor",
+      "commute": "Maybe",
+      "thoughtLength": 48
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:18:59.515Z"
+  },
+  {
+    "event": "P2_Home_Must_Have",
+    "payload": {
+      "id": "pref-1790357008258-qy5sy",
+      "luxury": "More space",
+      "home": "A higher floor",
+      "commute": "Maybe",
+      "length": 48
+    },
+    "timestamp": "2026-09-25T17:23:28.259Z"
+  },
+  {
+    "id": "ev-1790357008282-d4s2",
+    "event": "form_submitted",
+    "payload": {
+      "id": "pref-1790357008258-qy5sy",
+      "luxury": "More space",
+      "home": "A higher floor",
+      "commute": "Maybe",
+      "thoughtLength": 48
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:23:28.282Z"
+  },
+  {
+    "id": "ev-1790357078778-c7qh",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:24:38.778Z"
+  },
+  {
+    "id": "ev-1790357078780-76qd",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:24:38.780Z"
+  },
+  {
+    "id": "ev-1790357078855-4mdj",
+    "event": "P2_50_Scroll",
+    "payload": {
+      "depth": "50%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:24:38.856Z"
+  },
+  {
+    "id": "ev-1790357078859-zp6r",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:24:38.859Z"
+  },
+  {
+    "id": "ev-1790357086056-4za8",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790357008258-qy5sy",
+      "reaction": "heart"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:24:46.057Z"
+  },
+  {
+    "event": "P2_Home_Must_Have",
+    "payload": {
+      "id": "pref-1790357125046-5crwd",
+      "luxury": "More nature",
+      "home": "A greener view",
+      "commute": "Absolutely",
+      "length": 48
+    },
+    "timestamp": "2026-09-25T17:25:25.047Z"
+  },
+  {
+    "id": "ev-1790357221243-xd64",
+    "event": "P2_Open_Letter_Click",
+    "payload": {
+      "method": "wax_seal"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:27:01.243Z"
+  },
+  {
+    "id": "ev-1790357224202-ufp6",
+    "event": "ambient_audio_toggled",
+    "payload": {
+      "state": "on"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:27:04.202Z"
+  },
+  {
+    "id": "ev-1790357275413-7z0b",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:27:55.413Z"
+  },
+  {
+    "id": "ev-1790357385538-hdq9",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790357008258-qy5sy",
+      "reaction": "heart",
+      "action": "remove"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:29:45.538Z"
+  },
+  {
+    "id": "ev-1790357386353-z0ce",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790357008258-qy5sy",
+      "reaction": "heart",
+      "action": "add"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:29:46.353Z"
+  },
+  {
+    "id": "ev-1790357387835-c0jq",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790356739469-cvgk5",
+      "reaction": "heart",
+      "action": "add"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:29:47.835Z"
+  },
+  {
+    "id": "ev-1790357388602-9bjw",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-1790356739469-cvgk5",
+      "reaction": "heart",
+      "action": "remove"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:29:48.602Z"
+  },
+  {
+    "id": "ev-1790357390299-xos9",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-5",
+      "reaction": "heart",
+      "action": "add"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:29:50.299Z"
+  },
+  {
+    "id": "ev-1790357391052-uuyc",
+    "event": "P2_Wall_Reaction",
+    "payload": {
+      "thought_id": "pref-5",
+      "reaction": "heart",
+      "action": "remove"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:29:51.052Z"
+  },
+  {
+    "id": "ev-1790357414357-l3pk",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:30:14.357Z"
+  },
+  {
+    "id": "ev-1790357414360-00rs",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:30:14.360Z"
+  },
+  {
+    "id": "ev-1790357414383-gnh3",
+    "event": "P2_50_Scroll",
+    "payload": {
+      "depth": "50%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:30:14.383Z"
+  },
+  {
+    "id": "ev-1790357414391-xnas",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:30:14.391Z"
+  },
+  {
+    "id": "ev-1790357423818-ny6h",
+    "event": "P2_Open_Letter_Click",
+    "payload": {
+      "method": "wax_seal"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:30:23.818Z"
+  },
+  {
+    "id": "ev-1790357707083-wed6",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:07.083Z"
+  },
+  {
+    "id": "ev-1790357707087-sz3r",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:07.087Z"
+  },
+  {
+    "id": "ev-1790357709260-6tbn",
+    "event": "P2_50_Scroll",
+    "payload": {
+      "depth": "50%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:09.260Z"
+  },
+  {
+    "id": "ev-1790357710240-60ny",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:10.241Z"
+  },
+  {
+    "id": "ev-1790357712983-jm86",
+    "event": "P2_Break_Seal_Initiated",
+    "payload": {
+      "method": "wax_seal",
+      "code": "PUN-CH3-9202"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:12.983Z"
+  },
+  {
+    "id": "ev-1790357713740-fcm8",
+    "event": "P2_Letter_Unfolded",
+    "payload": {
+      "method": "wax_seal",
+      "code": "PUN-CH3-9202"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:13.740Z"
+  },
+  {
+    "id": "ev-1790357735421-6dcr",
+    "event": "P2_Keepsake_Downloaded",
+    "payload": {
+      "code": "PUN-CH3-9202"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:35:35.421Z"
+  },
+  {
+    "id": "ev-1790357776809-53cc",
+    "event": "P2_Sent_Letter_Inspect",
+    "payload": {
+      "letter_id": "04",
+      "title": "The Character"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:36:16.809Z"
+  },
+  {
+    "id": "ev-1790357779889-ljwh",
+    "event": "P2_Sent_Letter_Inspect",
+    "payload": {
+      "letter_id": "03",
+      "title": "The Trees"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:36:19.889Z"
+  },
+  {
+    "id": "ev-1790357782716-ko4i",
+    "event": "P2_Sent_Letter_Inspect",
+    "payload": {
+      "letter_id": "02",
+      "title": "The Mornings"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:36:22.716Z"
+  },
+  {
+    "id": "ev-1790357785660-7kd9",
+    "event": "P2_Sent_Letter_Inspect",
+    "payload": {
+      "letter_id": "01",
+      "title": "The First Rain"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:36:25.660Z"
+  },
+  {
+    "id": "ev-1790357823593-7zjo",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:37:03.593Z"
+  },
+  {
+    "id": "ev-1790357823598-d88r",
+    "event": "P2_Landing_View",
+    "payload": {
+      "source": "web",
+      "campaign": "Dear Pune Chapter Two",
+      "referrer": "direct"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:37:03.598Z"
+  },
+  {
+    "id": "ev-1790357824057-rqii",
+    "event": "P2_50_Scroll",
+    "payload": {
+      "depth": "50%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:37:04.057Z"
+  },
+  {
+    "id": "ev-1790357824557-qpu9",
+    "event": "P2_90_Scroll",
+    "payload": {
+      "depth": "90%"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:37:04.557Z"
+  },
+  {
+    "id": "ev-1790357826924-vied",
+    "event": "ambient_audio_toggled",
+    "payload": {
+      "state": "on"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:37:06.924Z"
+  },
+  {
+    "id": "ev-1790357836244-juae",
+    "event": "hero_cta_why_unsent",
+    "payload": {
+      "cta": "sent"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:37:16.244Z"
+  },
+  {
+    "id": "ev-1790358086838-vgjd",
+    "event": "ambient_audio_toggled",
+    "payload": {
+      "state": "off"
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:41:26.838Z"
+  },
+  {
+    "id": "ev-1790358291874-wq1y",
+    "event": "P2_Home_Must_Have",
+    "payload": {
+      "id": "pref-1790358291778-9bpqc",
+      "luxury": "More space",
+      "home": "A greener view",
+      "commute": "Absolutely",
+      "length": 47
+    },
+    "sessionId": "anon",
+    "timestamp": "2026-09-25T17:44:51.874Z"
+  }
+]

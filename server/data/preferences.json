@@ -1,0 +1,162 @@
+[
+  {
+    "id": "pref-1790358291778-9bpqc",
+    "luxury": "More space",
+    "home": "A greener view",
+    "commute": "Absolutely",
+    "thought": "Testing direct MongoDB Atlas Cloud persistence.",
+    "author": "Mahesh Varpe",
+    "reactions": {
+      "heart": 0,
+      "resonates": 0,
+      "truePune": 0,
+      "dislike": 0
+    },
+    "userAgent": "node",
+    "createdAt": "2026-09-25T17:44:51.778Z"
+  },
+  {
+    "id": "pref-1790357125046-5crwd",
+    "luxury": "More nature",
+    "home": "A greener view",
+    "commute": "Absolutely",
+    "thought": "Test CSV thought with comma, and \"quotes\" inside",
+    "author": "Test, Author With Comma",
+    "reactions": {
+      "heart": 1,
+      "resonates": 0,
+      "truePune": 0
+    },
+    "userAgent": "node",
+    "createdAt": "2026-09-25T17:25:25.046Z"
+  },
+  {
+    "id": "pref-1790357008258-qy5sy",
+    "luxury": "More space",
+    "home": "A higher floor",
+    "commute": "Maybe",
+    "thought": "A home with cross-ventilation and tall ceilings.",
+    "author": "Test Punekar",
+    "reactions": {
+      "heart": 1,
+      "resonates": 0,
+      "truePune": 0
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "createdAt": "2026-09-25T17:23:28.258Z"
+  },
+  {
+    "id": "pref-1790356739469-cvgk5",
+    "luxury": "More space",
+    "home": "A higher floor",
+    "commute": "Maybe",
+    "thought": "A home with cross-ventilation and tall ceilings.",
+    "author": "Test Punekar",
+    "reactions": {
+      "heart": 0,
+      "resonates": 0,
+      "truePune": 0
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "createdAt": "2026-09-25T17:18:59.469Z"
+  },
+  {
+    "id": "pref-1790351638400-4v939",
+    "luxury": "More nature",
+    "home": "A greener view",
+    "commute": "Absolutely",
+    "thought": "A quiet veranda where morning tea feels unhurried, surrounded by neem trees.",
+    "author": "A Punekar from Law College Road",
+    "reactions": {
+      "heart": 2,
+      "resonates": 0,
+      "truePune": 0
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "createdAt": "2026-09-25T15:53:58.400Z"
+  },
+  {
+    "id": "pref-1",
+    "luxury": "More nature",
+    "home": "A greener view",
+    "commute": "Absolutely",
+    "thought": "I don't need fifty amenities. I need a home that feels less crowded.",
+    "author": "A Punekar from Prabhat Road",
+    "reactions": {
+      "heart": 24,
+      "resonates": 19,
+      "truePune": 31
+    },
+    "createdAt": "2026-09-24T03:28:36.593Z"
+  },
+  {
+    "id": "pref-2",
+    "luxury": "More space",
+    "home": "A greener view",
+    "commute": "Maybe",
+    "thought": "A green view I can actually wake up to every morning without staring into someone's balcony.",
+    "author": "A Punekar from Kothrud",
+    "reactions": {
+      "heart": 18,
+      "resonates": 14,
+      "truePune": 27
+    },
+    "createdAt": "2026-09-24T15:28:36.594Z"
+  },
+  {
+    "id": "pref-3",
+    "luxury": "More privacy",
+    "home": "More room",
+    "commute": "Absolutely",
+    "thought": "Peace after work. Just bird songs and trees. That is luxury now.",
+    "author": "A Punekar from Baner",
+    "reactions": {
+      "heart": 32,
+      "resonates": 27,
+      "truePune": 40
+    },
+    "createdAt": "2026-09-24T21:28:36.594Z"
+  },
+  {
+    "id": "pref-4",
+    "luxury": "More nature",
+    "home": "A better location",
+    "commute": "Maybe",
+    "thought": "The old Pune aroma of wet petrichor under gulmohar trees. Build homes that breathe.",
+    "author": "A Punekar from Model Colony",
+    "reactions": {
+      "heart": 15,
+      "resonates": 21,
+      "truePune": 35
+    },
+    "createdAt": "2026-09-25T03:28:36.594Z"
+  },
+  {
+    "id": "pref-5",
+    "luxury": "More space",
+    "home": "More room",
+    "commute": "Absolutely",
+    "thought": "A large veranda where evening chai actually feels like an occasion, not a rush.",
+    "author": "A Punekar from Kalyani Nagar",
+    "reactions": {
+      "heart": 31,
+      "resonates": 16,
+      "truePune": 29
+    },
+    "createdAt": "2026-09-25T09:28:36.594Z"
+  },
+  {
+    "id": "pref-6",
+    "luxury": "More convenience",
+    "home": "A greener view",
+    "commute": "Probably not",
+    "thought": "Wide windows, quiet cross-breeze, and zero honking during late evenings.",
+    "author": "A Punekar from Aundh",
+    "reactions": {
+      "heart": 12,
+      "resonates": 19,
+      "truePune": 18
+    },
+    "createdAt": "2026-09-25T13:28:36.594Z"
+  }
+]
