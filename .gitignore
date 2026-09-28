@@ -15,3 +15,6 @@ npm-debug.log*
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Root source audio
+/mixkit-light-rain-loop-2393.wav

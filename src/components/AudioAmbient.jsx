@@ -2,10 +2,16 @@
 class MonsoonAudioEngine {
   constructor() {
     this.ctx = null;
-    this.rainNode = null;
+    this.rainBuffer = null;
+    this.rainSource = null;
     this.gainNode = null;
     this.isPlaying = false;
     this.bellTimer = null;
+    this.audioEl = null;
+
+    if (typeof window !== 'undefined') {
+      this.loadRainAudio();
+    }
   }
 
   init() {
@@ -15,53 +21,73 @@ class MonsoonAudioEngine {
     }
   }
 
+  async loadRainAudio() {
+    try {
+      const res = await fetch('/audio/rain.wav');
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const arrayBuffer = await res.arrayBuffer();
+      this.init();
+      this.ctx.decodeAudioData(
+        arrayBuffer,
+        (decoded) => {
+          this.rainBuffer = decoded;
+          // If the user started playback before download/decode completed
+          if (this.isPlaying && !this.rainSource && (!this.audioEl || this.audioEl.paused)) {
+            this._playRainBuffer();
+          }
+        },
+        (err) => {
+          console.warn('Web Audio decode failed, will use Audio element:', err);
+        }
+      );
+    } catch (e) {
+      console.warn('Could not preload rain audio buffer:', e);
+    }
+  }
+
+  _playRainBuffer() {
+    if (!this.rainBuffer || !this.ctx || !this.isPlaying) return;
+
+    if (this.rainSource) {
+      try { this.rainSource.stop(); } catch (e) {}
+      this.rainSource.disconnect();
+    }
+
+    this.rainSource = this.ctx.createBufferSource();
+    this.rainSource.buffer = this.rainBuffer;
+    this.rainSource.loop = true;
+
+    this.gainNode = this.ctx.createGain();
+    this.gainNode.gain.setValueAtTime(0.001, this.ctx.currentTime);
+    this.gainNode.gain.exponentialRampToValueAtTime(0.32, this.ctx.currentTime + 1.2);
+
+    this.rainSource.connect(this.gainNode);
+    this.gainNode.connect(this.ctx.destination);
+
+    this.rainSource.start(0);
+  }
+
   start() {
     this.init();
     if (this.ctx.state === 'suspended') {
       this.ctx.resume();
     }
     if (this.isPlaying) return;
-
-    // Create pink noise buffer for soft monsoon rain
-    const bufferSize = this.ctx.sampleRate * 2;
-    const buffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
-    const data = buffer.getChannelData(0);
-    let b0 = 0, b1 = 0, b2 = 0, b3 = 0, b4 = 0, b5 = 0, b6 = 0;
-
-    for (let i = 0; i < bufferSize; i++) {
-      const white = Math.random() * 2 - 1;
-      b0 = 0.99886 * b0 + white * 0.0555179;
-      b1 = 0.99332 * b1 + white * 0.0750759;
-      b2 = 0.96900 * b2 + white * 0.1538520;
-      b3 = 0.86650 * b3 + white * 0.3104856;
-      b4 = 0.55000 * b4 + white * 0.5329522;
-      b5 = -0.7616 * b5 - white * 0.0168980;
-      data[i] = (b0 + b1 + b2 + b3 + b4 + b5 + b6 + white * 0.5362) * 0.035;
-      b6 = white * 0.115926;
-    }
-
-    const whiteNoise = this.ctx.createBufferSource();
-    whiteNoise.buffer = buffer;
-    whiteNoise.loop = true;
-
-    // Filter to make it sound like distant soft rain
-    const filter = this.ctx.createBiquadFilter();
-    filter.type = 'lowpass';
-    filter.frequency.setValueAtTime(800, this.ctx.currentTime);
-
-    this.gainNode = this.ctx.createGain();
-    this.gainNode.gain.setValueAtTime(0.01, this.ctx.currentTime);
-    this.gainNode.gain.exponentialRampToValueAtTime(0.08, this.ctx.currentTime + 2);
-
-    whiteNoise.connect(filter);
-    filter.connect(this.gainNode);
-    this.gainNode.connect(this.ctx.destination);
-
-    whiteNoise.start();
-    this.rainNode = whiteNoise;
     this.isPlaying = true;
 
-    // Random gentle chime every 14-24 seconds
+    if (this.rainBuffer) {
+      this._playRainBuffer();
+    } else {
+      // Immediate fallback while buffer is decoding or loading
+      if (!this.audioEl) {
+        this.audioEl = new Audio('/audio/rain.wav');
+        this.audioEl.loop = true;
+      }
+      this.audioEl.volume = 0.32;
+      this.audioEl.play().catch(() => {});
+    }
+
+    // Gentle Pune temple chimes every 14-24 seconds
     this.scheduleBell();
   }
 
@@ -87,7 +113,7 @@ class MonsoonAudioEngine {
     osc.frequency.setValueAtTime(freq, this.ctx.currentTime);
 
     bellGain.gain.setValueAtTime(0.001, this.ctx.currentTime);
-    bellGain.gain.exponentialRampToValueAtTime(0.04, this.ctx.currentTime + 0.05);
+    bellGain.gain.exponentialRampToValueAtTime(0.05, this.ctx.currentTime + 0.05);
     bellGain.gain.exponentialRampToValueAtTime(0.0001, this.ctx.currentTime + 3.5);
 
     osc.connect(bellGain);
@@ -99,18 +125,32 @@ class MonsoonAudioEngine {
 
   stop() {
     if (!this.isPlaying) return;
-    if (this.gainNode && this.ctx) {
-      this.gainNode.gain.linearRampToValueAtTime(0.0001, this.ctx.currentTime + 1);
-      setTimeout(() => {
-        if (this.rainNode) {
-          try { this.rainNode.stop(); } catch (e) {}
-          this.rainNode.disconnect();
-          this.rainNode = null;
-        }
-      }, 1000);
-    }
-    if (this.bellTimer) clearTimeout(this.bellTimer);
     this.isPlaying = false;
+
+    if (this.bellTimer) {
+      clearTimeout(this.bellTimer);
+      this.bellTimer = null;
+    }
+
+    if (this.gainNode && this.ctx) {
+      this.gainNode.gain.linearRampToValueAtTime(0.0001, this.ctx.currentTime + 0.8);
+      setTimeout(() => {
+        if (this.rainSource) {
+          try { this.rainSource.stop(); } catch (e) {}
+          this.rainSource.disconnect();
+          this.rainSource = null;
+        }
+      }, 800);
+    } else if (this.rainSource) {
+      try { this.rainSource.stop(); } catch (e) {}
+      this.rainSource.disconnect();
+      this.rainSource = null;
+    }
+
+    if (this.audioEl) {
+      this.audioEl.pause();
+      this.audioEl.currentTime = 0;
+    }
   }
 
   // Play a quick realistic parchment rustle sound effect on seal breaking
